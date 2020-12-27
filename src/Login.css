@@ -6,7 +6,8 @@
 }
 
 .login > img {
-  height: 200px;
+  height: 60%;
+  /* height: 200px; */
 }
 
 .login > a {
@@ -16,4 +17,52 @@
   border-radius: 99px;
   font-weight: 800;
   background-color: #1db954;
+}
+
+@media only screen and (max-width: 683px) {
+  .login > img {
+    height: 50%;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 546px) {
+  .login > img {
+    height: 40%;
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .login > img {
+    height: 45%;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 422px) {
+  .login > img {
+    height: 40%;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .login > img {
+    height: 50%;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .login > img {
+    height: 50%;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .login > img {
+    height: 50%;
+    width: 90%;
+  }
 }
